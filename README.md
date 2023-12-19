@@ -74,7 +74,7 @@ newNews.Detail = HttpUtility.HtmlEncode(request.Detail);
 
 (Ich konnte keine Demo machen, da die Skripte nicht ausgeführt werden.)
 
-### Beurteilung
+### Beurteilung  
 Ich finde ich hätte das Handlungsziel ein bisschen besser verstehen können, da ich zum einen zwar das Konzept verstanden habe, ich aber auf meinem Laptop nie ein funktionierendes Beispiel von XSS zum laufen brachte.
 
 ## HZ 3 - Passwort Hashing
@@ -111,7 +111,7 @@ console.log(isRightPassword)
 
 Um nun das Passwort zu überprüfen können wir, wie schon gesagt, nicht einfach vom gehashten Passwort auf das ursprüngliche Passwort schliessen. Wir müssen das Passwort neu hashen und dann vergleichen. Das geht mit der Funktion `CompareSync`. Diese nimmt zwei Parameter an, einmal das Passwort und einmal den Hash. Wenn die beiden übereinstimmen, gibt sie `true` zurück und das Passwort ist korrekt.
 
-### Beurteilung
+### Beurteilung
 Das Thema Hashing habe ich super verstanden, da ich mich auch schon lange vor dem Modul mit Hashing in anderen Projekten beschäftigt habe.
 
 ## HZ 4 - Mensch als Sicherheitslücke
@@ -164,7 +164,7 @@ const Logger = {
 } as const
 ```
 
-### Beurteilung
+### Beurteilung
 Ich finde ich habe das Handlungsziel gut verstanden. Ich habe mich schon vor dem Modul mit dem Thema beschäftigt und habe auch schon in anderen Projekten versucht, die Passworteingabe zu validieren, um ein sicheres Passwort zu garantieren.
 
 ## HZ 5 - Logging
@@ -200,8 +200,8 @@ app.post('/signup', async (req, res) => {
 })
 ```
 
-### Beurteilung
+### Beurteilung
 Das Thema Logging habe ich gut verstanden, da es mir vorher schon über den Weg gelaufen ist. Zudem habe ich das hier gut dargestellt.
 
-## Reflexion
+## Reflexion
 Ich finde ich habe den Portfolioeintrag ganz gut erledigt. Grundsätzlich hätte ich aber im Modul besser Arbeiten können und habe oft Aufträge nicht fertig gemacht. Ich denke es lag hauptsächlich daran, dass wir eigentlich seit August keine durchgehend freihe Woche hatten und ich langsam Ferien brauche. Dennoch habe ich im Modul einiges gelernt.
